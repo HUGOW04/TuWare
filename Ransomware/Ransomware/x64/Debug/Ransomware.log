@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\Visual Studio\C++\Ransomware\Ransomware\Source.cpp(63,23): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+D:\Visual Studio\C++\Ransomware\Ransomware\Source.cpp(75,27): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+D:\Visual Studio\C++\Ransomware\Ransomware\Source.cpp(100,25): warning C4834: discarding return value of function with 'nodiscard' attribute
+  Ransomware.vcxproj -> D:\Visual Studio\C++\Ransomware\x64\Debug\Ransomware.exe
