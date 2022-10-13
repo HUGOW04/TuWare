@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\Visual Studio\C++\Decrypt\Decrypt\Source.cpp(48,23): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+D:\Visual Studio\C++\Decrypt\Decrypt\Source.cpp(60,27): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+D:\Visual Studio\C++\Decrypt\Decrypt\Source.cpp(85,25): warning C4834: discarding return value of function with 'nodiscard' attribute
+  Decrypt.vcxproj -> D:\Visual Studio\C++\Decrypt\x64\Debug\Decrypt.exe
